@@ -365,7 +365,7 @@ body {
   border-radius: 50%;
 }
 
-.team-list .social-link:hover
+.team-list .social-link:hover,
 .team-list .social-link:focus {
   background-color: var(--darkblue-color);
 }
