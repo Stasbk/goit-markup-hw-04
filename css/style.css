@@ -475,8 +475,8 @@ body {
   border-radius: 4px;
 }
 
-.costumers-list .costumers-link:hover,
-.costumers-list .costumers-link:focus {
+.costumers-link:hover,
+.costumers-link:focus {
   border: 1px solid var(--darkblue-color);
   border-radius: 4px;
 }
@@ -485,8 +485,7 @@ body {
   fill: #8e8f99;
 }
 
-.costumers-list .costumers-icon:hover,
-.costumers-list .costumers-icon:focus {
+.costumers-link:is(:hover,:focus) .costumers-icon {
   fill: var(--darkblue-color);
 }
 
